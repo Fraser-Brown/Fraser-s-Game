@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f27980">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:id="@+id/textViewRules"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:autoText="false"
+        android:fontFamily="@font/fraserfont"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:text="
+\n
+•\tEvery player should have a drink \n\n
+•\tEvery player needs a blank piece of paper about the size of a playing card
+\n\n
+•\tOne pen between the group should be enough
+\n\n
+•\tThis can be played like ring of fire or with a playlist, the bomb represents either a song, a complete loop of the circle, or some event everyone agrees upon
+\n\n
+•\tFollow the rules on the cards, some of which are secret, press the screen to go onto the next card, NO SKIPPING
+\n\n
+•\tGoogle any rules you don't understand
+\n\n
+•\tAnything referring to cards uses the piece of paper you have
+\n\n
+•\tHave a timer on hand for some of the rules
+\n\n
+"
+        android:textAlignment="center"
+        android:textColor="#fcfcdf"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/fraserfont"
+        android:text="How to play:"
+        android:textAlignment="center"
+        android:textColor="#fcfcdf"
+        android:textSize="40sp" />
+
+</RelativeLayout>
