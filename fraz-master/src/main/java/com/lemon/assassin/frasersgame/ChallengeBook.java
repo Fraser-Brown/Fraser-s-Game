@@ -62,7 +62,7 @@ public class ChallengeBook {
         while ((ruleName = reader.readLine()) != null){
             try {
                 JSONObject current = new JSONObject(ruleName);
-                if(current.get("difficulty") == "Easy"){
+                if(current.getString("difficulty").equals("Easy")){
                     easy.add(current);
                 }
                 else{
